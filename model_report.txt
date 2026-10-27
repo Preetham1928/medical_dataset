@@ -1,0 +1,22 @@
+Dataset: medical_data_5000_year_above_2020.csv
+Model: Random Forest Classifier
+Records: 5000
+Test records: 1000
+Accuracy: 42.80%
+
+              precision    recall  f1-score   support
+
+    Improved       0.30      0.22      0.26       300
+   Recovered       0.50      0.72      0.59       494
+    Referred       0.00      0.00      0.00        52
+      Stable       0.11      0.03      0.05       154
+
+    accuracy                           0.43      1000
+   macro avg       0.23      0.24      0.22      1000
+weighted avg       0.35      0.43      0.37      1000
+
+Confusion matrix (rows=actual, columns=predicted):
+[[ 67, 217,   3,  13],
+ [108, 356,   4,  26],
+ [ 10,  39,   0,   3],
+ [ 40, 105,   4,   5]]
